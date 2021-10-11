@@ -1,3 +1,4 @@
+-- The reason why use account based churn is to remove effect of changing price.
 WITH 
 date_range AS (
 	SELECT 
